@@ -11,7 +11,7 @@ services:
         networks:
             - default
     db:
-        image: mysql
+        image: mysql:latest
         restart: always
         command: ['mysqld','--character-set-server=utf8']
         ports: 
